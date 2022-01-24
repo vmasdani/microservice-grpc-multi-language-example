@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EheOX5QyKwXjciKQYwqREnDbIsTVwuN3v7t18V2/kIUFVkfdgJLBq6Ir6FUB1ZXKgc8JPruuupj7MLVcMtgNsQ==",
+  "success": true,
+  "projectFilePath": "/home/valian/codes/project/microservice-grpc-multi-language-example/dotnet/dotnet.csproj",
+  "expectedPackageFiles": [
+    "/home/valian/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.0/microsoft.aspnetcore.app.ref.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

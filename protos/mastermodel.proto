@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option go_package = "./;main";
+option java_package = "com.example.grpcmicroservicetest";
+
+message MasterMessage {
+  optional string payload = 1;
+  optional string timestamp = 2;
+}
+
+message EmptyMessage {}
+
+service GoService { rpc Increment(EmptyMessage) returns (MasterMessage); }
+service JavaService { rpc Increment(EmptyMessage) returns (MasterMessage); }
+service DotnetService { rpc Increment(EmptyMessage) returns (MasterMessage); }
